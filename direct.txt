@@ -1,0 +1,34 @@
+# 国内直连域名 - ClashHub - 2026-04-20
+
+# 搜索引擎
+baidu.com
+sina.com
+360.cn
+bing.com
+sogou.com
+
+# 即时通讯
+qq.com
+weixin.com
+tencent.com
+
+# 电商
+taobao.com
+tmall.com
+jd.com
+1688.com
+alibaba.com
+alipay.com
+pinduoduo.com
+
+# 视频
+bilibili.com
+douyin.com
+iqiyi.com
+youku.com
+
+# 云服务
+aliyun.com
+bcebos.com
+cloud.tencent.com
+qingcloud.com
