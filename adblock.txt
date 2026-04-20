@@ -1,0 +1,33 @@
+# 广告+追踪器域名黑名单 - ClashHub - 2026-04-20
+
+# 广告网络
+doubleclick.net
+googlesyndication.com
+googleadservices.com
+moatads.com
+adnxs.com
+criteo.com
+taboola.com
+outbrain.com
+amazon-adsystem.com
+scorecardresearch.com
+quantserve.com
+pubmatic.com
+rubiconproject.com
+openx.net
+
+# 追踪器
+google-analytics.com
+googletagmanager.com
+facebook.net
+hotjar.com
+mixpanel.com
+segment.com
+amplitude.com
+appsflyer.com
+adjust.com
+branch.io
+
+# 国内广告（按需启用）
+# gdtimg.com
+# union.sz.com
