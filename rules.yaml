@@ -1,0 +1,46 @@
+# Clash 分流规则 - ClashHub - 2026-04-20
+
+payload:
+  # 广告拦截
+  - DOMAIN-SUFFIX,doubleclick.net
+  - DOMAIN-SUFFIX,googlesyndication.com
+  - DOMAIN-SUFFIX,adnxs.com
+  - DOMAIN-SUFFIX,criteo.com
+  - DOMAIN-KEYWORD,analytics
+  - DOMAIN-KEYWORD,tracking
+
+  # Telegram
+  - DOMAIN-SUFFIX,telegram.org
+  - DOMAIN-SUFFIX,t.me
+  - IP-CIDR,91.108.4.0/22
+  - IP-CIDR,149.154.160.0/20
+
+  # Netflix
+  - DOMAIN-SUFFIX,netflix.com
+  - DOMAIN-SUFFIX,nflxvideo.net
+  - DOMAIN-KEYWORD,netflix
+
+  # YouTube
+  - DOMAIN-SUFFIX,youtube.com
+  - DOMAIN-SUFFIX,googlevideo.com
+
+  # TikTok
+  - DOMAIN-SUFFIX,tiktok.com
+
+  # 国内直连
+  - DOMAIN-SUFFIX,cn
+  - DOMAIN-SUFFIX,baidu.com
+  - DOMAIN-SUFFIX,qq.com
+  - DOMAIN-SUFFIX,taobao.com
+  - DOMAIN-SUFFIX,jd.com
+  - DOMAIN-SUFFIX,bilibili.com
+  - DOMAIN-SUFFIX,tencent.com
+  - DOMAIN-SUFFIX,weixin.com
+  - DOMAIN-SUFFIX,163.com
+  - IP-CIDR,10.0.0.0/8
+  - IP-CIDR,172.16.0.0/12
+  - IP-CIDR,192.168.0.0/16
+  - GEOIP,CN
+
+  # 默认
+  - MATCH,Proxy
